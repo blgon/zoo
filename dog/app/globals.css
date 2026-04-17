@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0f0f1a;
-  --foreground: #ffffff;
+  --background: #FFF5F7;
+  --foreground: #5C4566;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Arial', Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 @keyframes spin-roulette {
@@ -21,8 +21,14 @@ body {
 }
 
 @keyframes winner-pulse {
-  0%, 100% { transform: scale(1); box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); }
-  50% { transform: scale(1.05); box-shadow: 0 0 40px rgba(255, 215, 0, 0.9); }
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 30px rgba(232,165,197,0.35), inset 0 2px 6px rgba(255,255,255,0.6);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 14px 40px rgba(232,165,197,0.55), inset 0 2px 6px rgba(255,255,255,0.8);
+  }
 }
 
 .winner-pulse {
