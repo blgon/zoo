@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FFF5F7;
-  --foreground: #5C4566;
+  --background: #F5E6CF;
+  --foreground: #3E2B1F;
 }
 
 body {
@@ -23,11 +23,11 @@ body {
 @keyframes winner-pulse {
   0%, 100% {
     transform: scale(1);
-    box-shadow: 0 10px 30px rgba(232,165,197,0.35), inset 0 2px 6px rgba(255,255,255,0.6);
+    box-shadow: 0 10px 30px rgba(154,46,46,0.3), inset 0 2px 6px rgba(255,248,236,0.7);
   }
   50% {
     transform: scale(1.04);
-    box-shadow: 0 14px 40px rgba(232,165,197,0.55), inset 0 2px 6px rgba(255,255,255,0.8);
+    box-shadow: 0 14px 40px rgba(154,46,46,0.5), inset 0 2px 6px rgba(255,248,236,0.9);
   }
 }
 
